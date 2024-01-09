@@ -20,11 +20,11 @@ import { Message } from './message.model';
       <label for="leaveDays">Leave Days:</label>
       <input type="number" id="leaveDays" [(ngModel)]="leaveDays" required />
 
-      <label for="fromDate">From Date:</label>
-      <input type="text" id="fromDate" [(ngModel)]="fromDate" required />
+     <label for="fromDate">From Date:</label>
+      <input type="date" id="fromDate" [(ngModel)]="fromDate" required />
 
       <label for="toDate">To Date:</label>
-      <input type="text" id="toDate" [(ngModel)]="toDate" required />
+      <input type="date" id="toDate" [(ngModel)]="toDate" required />
 
       <button (click)="sendMessage()">Send</button>
 
